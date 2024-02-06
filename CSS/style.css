@@ -1,0 +1,55 @@
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(57, 205, 238);
+    overflow: hidden;
+}
+.menu li{
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: rgb(32, 95, 173);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+}
+nav ul li + li { 
+    margin-left: 10px; 
+  } 
+
+.menu li a:hover{
+    background-color: black;
+}
+body {
+    background-image: url(https://i.pinimg.com/236x/be/95/a9/be95a933b34fdfb9b93c13cac31c6089.jpg);
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.779);
+    border: rgb(57, 205, 238) 3px solid;
+    color: rgb(57, 205, 238);
+    text-align: left;
+    font-size: 30px;
+    max-width: 50%;
+    margin-top: 100px;
+    font-family: "Shadows Into Light", cursive;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.Roll {
+    font-size: 30px;
+    background-color: black;
+    border: rgb(57, 205, 238) 2px solid;
+    color: rgb(57, 205, 238);
+    float: left;
+    font-family: "Shadows Into Light", cursive;
+}
+audio {
+    float: left;
+}

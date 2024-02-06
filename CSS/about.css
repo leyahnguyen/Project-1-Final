@@ -1,0 +1,96 @@
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(57, 205, 238);
+    overflow: hidden;
+}
+.menu li{
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: rgb(32, 95, 173);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 25px;
+}
+nav ul li + li { 
+    margin-left: 10px; 
+  } 
+
+.menu li a:hover{
+    background-color: black;
+}
+body {
+    background-image: url(https://i.pinimg.com/236x/be/95/a9/be95a933b34fdfb9b93c13cac31c6089.jpg);
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.779);
+    color: rgb(57, 205, 238);
+    text-align: left;
+    float:center;
+    font-size: 30px;
+    border: rgb(57, 205, 238) 3px solid;
+    max-width: 55%;
+}
+img {
+    width: 145px;
+   margin-left: 300px;
+   margin-top: 30px;
+   margin-right: 10px;
+   float:left;
+}
+.Interests {
+    max-width: 15%;
+    float: left;
+    margin-left: 300px;
+    margin-top: 0.1px;
+    font-family: "Shadows Into Light", cursive;
+}
+.About{
+margin-left: 290px;
+font-family: "Shadows Into Light", cursive;
+padding-left: 30px;
+}
+.miku {
+    width: 500px;
+margin-right: 280px;
+margin-left: 60px;
+margin-top: 1px;
+border: rgb(57, 205, 238) 3px solid;
+}
+.Contact {
+    max-width: 500px;
+    margin-left: 580px;
+    margin-top: 400px;
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+}
+.Friends {
+    max-width: 500px;
+    margin-left: 580px;
+    margin-top: 30px;
+    font-family: "Shadows Into Light", cursive;
+    text-align: center;
+}
+
+.dang {
+    position: relative;
+    bottom: 250px;
+    left: 315px;
+    width: 130px;
+}
+.jconnor {
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+    width: 130px;
+}
+.wes {
+    position: relative;
+    bottom: 250px;
+    right: 270px;
+    width: 130px;
+}
